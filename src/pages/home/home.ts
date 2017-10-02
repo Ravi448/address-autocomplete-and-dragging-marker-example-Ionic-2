@@ -41,9 +41,6 @@ export class HomePage {
         this.renderMap();
       });
 
-      setInterval(()=>{
-        console.log(this.result);
-      },2000);
   }
 
   ionViewDidLoad(){
